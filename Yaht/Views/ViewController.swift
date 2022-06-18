@@ -55,6 +55,16 @@ final class ViewController: UIViewController {
         return stack
     }()
     
+    private lazy var clearWayButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .systemBlue
+        button.setTitle("Clear", for: .normal)
+        button.addTarget(self, action:  #selector(clearUserWay), for: .touchUpInside)
+        button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 5
+        return button
+    }()
+    
     private var mapView: MKMapView!
     
     private let frame = CGRect()
@@ -77,10 +87,11 @@ final class ViewController: UIViewController {
     private func setView() {
         view.addSubview(mapView)
         view.addSubview(stackView)
+        view.addSubview(clearWayButton)
         mapView.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(24)
             make.right.equalToSuperview().offset(-24)
-            make.top.equalToSuperview().offset(24)
+            make.top.equalToSuperview().offset(56)
             make.height.equalTo(UIScreen.main.bounds.height/2)
         }
         stackView.snp.makeConstraints { make in
@@ -88,6 +99,12 @@ final class ViewController: UIViewController {
             make.left.equalToSuperview().offset(36)
             make.right.equalToSuperview().offset(-36)
             make.height.equalTo(100)
+        }
+        clearWayButton.snp.makeConstraints { make in
+            make.top.equalTo(stackView.snp.bottom).offset(24)
+            make.left.equalToSuperview().offset(24)
+            make.right.equalToSuperview().offset(-24)
+            make.height.equalTo(36)
         }
     }
     
@@ -102,6 +119,10 @@ final class ViewController: UIViewController {
                 self.rollView.valueLabel.text = roll
             }
         }
+    }
+    
+    @objc private func clearUserWay(_ sender: UIButton!) {
+        drawableLocations.removeAll()
     }
 }
 
