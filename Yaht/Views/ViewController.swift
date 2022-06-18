@@ -122,6 +122,7 @@ final class ViewController: UIViewController {
     }
     
     @objc private func clearUserWay(_ sender: UIButton!) {
+        mapView.removeOverlays(mapView.overlays)
         drawableLocations.removeAll()
     }
 }
