@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD64CA3D285CE34D00BD8723 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64CA3C285CE34D00BD8723 /* MotionManager.swift */; };
+		DD64CA3F285CE49F00BD8723 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64CA3E285CE49F00BD8723 /* ViewModel.swift */; };
+		DD64CA41285D3BA100BD8723 /* DataSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64CA40285D3BA100BD8723 /* DataSubview.swift */; };
 		DD7EFD04285CD6410053E9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7EFD03285CD6410053E9F1 /* AppDelegate.swift */; };
 		DD7EFD06285CD6410053E9F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7EFD05285CD6410053E9F1 /* SceneDelegate.swift */; };
 		DD7EFD08285CD6410053E9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7EFD07285CD6410053E9F1 /* ViewController.swift */; };
-		DD7EFD0B285CD6410053E9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7EFD09285CD6410053E9F1 /* Main.storyboard */; };
 		DD7EFD0E285CD6410053E9F1 /* Yaht.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD7EFD0C285CD6410053E9F1 /* Yaht.xcdatamodeld */; };
 		DD7EFD10285CD64C0053E9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7EFD0F285CD64C0053E9F1 /* Assets.xcassets */; };
 		DD7EFD13285CD64C0053E9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7EFD11285CD64C0053E9F1 /* LaunchScreen.storyboard */; };
+		DDC8A089285E272D00BD5FDB /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8A088285E272D00BD5FDB /* MotionData.swift */; };
+		FF18D48CF4A1ECC309E7CA5D /* Pods_Yaht.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B584E20098CF1BE97F9522 /* Pods_Yaht.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3532E2968F6EAEEE05EF968C /* Pods-Yaht.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaht.debug.xcconfig"; path = "Target Support Files/Pods-Yaht/Pods-Yaht.debug.xcconfig"; sourceTree = "<group>"; };
+		7FA6229A052BC528CD6ED992 /* Pods-Yaht.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaht.release.xcconfig"; path = "Target Support Files/Pods-Yaht/Pods-Yaht.release.xcconfig"; sourceTree = "<group>"; };
+		DD64CA3C285CE34D00BD8723 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		DD64CA3E285CE49F00BD8723 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DD64CA40285D3BA100BD8723 /* DataSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSubview.swift; sourceTree = "<group>"; };
 		DD7EFD00285CD6410053E9F1 /* Yaht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yaht.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7EFD03285CD6410053E9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD7EFD05285CD6410053E9F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD7EFD07285CD6410053E9F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD7EFD0A285CD6410053E9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD7EFD0D285CD6410053E9F1 /* Yaht.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yaht.xcdatamodel; sourceTree = "<group>"; };
 		DD7EFD0F285CD64C0053E9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7EFD12285CD64C0053E9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7EFD14285CD64C0053E9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC8A088285E272D00BD5FDB /* MotionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionData.swift; sourceTree = "<group>"; };
+		F6B584E20098CF1BE97F9522 /* Pods_Yaht.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yaht.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF18D48CF4A1ECC309E7CA5D /* Pods_Yaht.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A69A32F5A06EB176BB0C7FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3532E2968F6EAEEE05EF968C /* Pods-Yaht.debug.xcconfig */,
+				7FA6229A052BC528CD6ED992 /* Pods-Yaht.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D53D859D10CBFEE4877307E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B584E20098CF1BE97F9522 /* Pods_Yaht.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD7EFCF7285CD6410053E9F1 = {
 			isa = PBXGroup;
 			children = (
 				DD7EFD02285CD6410053E9F1 /* Yaht */,
 				DD7EFD01285CD6410053E9F1 /* Products */,
+				4A69A32F5A06EB176BB0C7FB /* Pods */,
+				4D53D859D10CBFEE4877307E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +90,49 @@
 			children = (
 				DD7EFD03285CD6410053E9F1 /* AppDelegate.swift */,
 				DD7EFD05285CD6410053E9F1 /* SceneDelegate.swift */,
-				DD7EFD07285CD6410053E9F1 /* ViewController.swift */,
-				DD7EFD09285CD6410053E9F1 /* Main.storyboard */,
+				DDC8A087285E26F200BD5FDB /* Models */,
+				DDC8A086285E26C000BD5FDB /* Managers */,
+				DDC8A085285E269A00BD5FDB /* ViewModels */,
+				DDC8A084285E267C00BD5FDB /* Views */,
 				DD7EFD0F285CD64C0053E9F1 /* Assets.xcassets */,
 				DD7EFD11285CD64C0053E9F1 /* LaunchScreen.storyboard */,
 				DD7EFD14285CD64C0053E9F1 /* Info.plist */,
 				DD7EFD0C285CD6410053E9F1 /* Yaht.xcdatamodeld */,
 			);
 			path = Yaht;
+			sourceTree = "<group>";
+		};
+		DDC8A084285E267C00BD5FDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD7EFD07285CD6410053E9F1 /* ViewController.swift */,
+				DD64CA40285D3BA100BD8723 /* DataSubview.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDC8A085285E269A00BD5FDB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD64CA3E285CE49F00BD8723 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DDC8A086285E26C000BD5FDB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DD64CA3C285CE34D00BD8723 /* MotionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DDC8A087285E26F200BD5FDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8A088285E272D00BD5FDB /* MotionData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7EFD17285CD64C0053E9F1 /* Build configuration list for PBXNativeTarget "Yaht" */;
 			buildPhases = (
+				95E02C6FE3E247FCF57CFF94 /* [CP] Check Pods Manifest.lock */,
 				DD7EFCFC285CD6410053E9F1 /* Sources */,
 				DD7EFCFD285CD6410053E9F1 /* Frameworks */,
 				DD7EFCFE285CD6410053E9F1 /* Resources */,
+				70933E453ECEEDE5F61B5C0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +197,52 @@
 			files = (
 				DD7EFD13285CD64C0053E9F1 /* LaunchScreen.storyboard in Resources */,
 				DD7EFD10285CD64C0053E9F1 /* Assets.xcassets in Resources */,
-				DD7EFD0B285CD6410053E9F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70933E453ECEEDE5F61B5C0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yaht/Pods-Yaht-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yaht/Pods-Yaht-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yaht/Pods-Yaht-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E02C6FE3E247FCF57CFF94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yaht-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD7EFCFC285CD6410053E9F1 /* Sources */ = {
@@ -142,8 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7EFD08285CD6410053E9F1 /* ViewController.swift in Sources */,
+				DD64CA3D285CE34D00BD8723 /* MotionManager.swift in Sources */,
+				DD64CA41285D3BA100BD8723 /* DataSubview.swift in Sources */,
+				DDC8A089285E272D00BD5FDB /* MotionData.swift in Sources */,
 				DD7EFD04285CD6410053E9F1 /* AppDelegate.swift in Sources */,
 				DD7EFD06285CD6410053E9F1 /* SceneDelegate.swift in Sources */,
+				DD64CA3F285CE49F00BD8723 /* ViewModel.swift in Sources */,
 				DD7EFD0E285CD6410053E9F1 /* Yaht.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD7EFD09285CD6410053E9F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD7EFD0A285CD6410053E9F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD7EFD11285CD64C0053E9F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +390,7 @@
 		};
 		DD7EFD18285CD64C0053E9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3532E2968F6EAEEE05EF968C /* Pods-Yaht.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,9 +399,11 @@
 				DEVELOPMENT_TEAM = PR437U27Q7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Yaht/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "let us contorl you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "let us control you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,6 +421,7 @@
 		};
 		DD7EFD19285CD64C0053E9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA6229A052BC528CD6ED992 /* Pods-Yaht.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,9 +430,11 @@
 				DEVELOPMENT_TEAM = PR437U27Q7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Yaht/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "let us contorl you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "let us control you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
